@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.calc-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.calculator{
+    width: 600px;
+    height: 700px;
+    border: solid black;
+}
+.buttons
+{
+    border: solid 2px black;
+}
+button{
+    border-radius: 10px;
+    font-size: 30px;
+}
+.numbers{
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px ;
+    grid-template-columns: 150px 150px 150px 150px;
+
+    
+}
+.operator, .number{
+    width: 120px;
+    margin: 10px;
+}
+#displaypanel{
+    
+    width: 600px;
+    height: 95px;
+}
